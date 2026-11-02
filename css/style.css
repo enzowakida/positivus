@@ -75,7 +75,7 @@
 
 .principal {
     background-color: #fff;
-    padding: 50px;
+    padding: 50px 50px 0;
 
     display: flex;
     align-items: center;
@@ -139,7 +139,6 @@
     display: flex;
     align-items: center;
     justify-content: left;
-    
 }
 
 .mini-header h2 {
@@ -152,4 +151,362 @@
     width: 150px;
     font-size: 30px;
     font-weight: 500;
+}
+
+.container-cards {
+    padding: 30px;
+
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+    flex-wrap: wrap;
+}
+
+.card-um {
+    width: 600px;
+    height: 310px;
+    padding: 40px;
+    background-color: #F3F3F3;
+    border: 1px solid #191A23;
+    border-radius: 45px;
+    box-shadow: 0 5px 0 #191A23;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-um .conteudo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-um h3 {
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 1.3;
+    color: #191A23;
+}
+
+.card-um h3 span {
+    background-color: #B9FF66;
+    padding: 0 7px;
+    border-radius: 7px;
+}
+
+.card-um .text {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: #191A23;
+    font-size: 20px;
+}
+
+.card-um .icone {
+    display: flex;
+    width: 41px;
+    height: 41px;
+}
+
+.card-um .icone img {
+    width: 100%;
+    height: 100%;
+}
+
+.card-um .ilustracao {
+    width: 210px;
+    height: auto;
+    align-self: center;
+    object-fit: contain;
+}
+
+.card-dois {
+    width: 600px;
+    height: 310px;
+    padding: 40px;
+    background-color: #B9FF66;
+    border: 1px solid #191A23;
+    border-radius: 45px;
+    box-shadow: 0 5px 0 #191A23;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-dois .conteudo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-dois h3 {
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 1.3;
+    color: #191A23;
+}
+
+.card-dois h3 span {
+    background-color: #fff;
+    padding: 0 7px;
+    border-radius: 7px;
+}
+
+.card-dois .text {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: #191A23;
+    font-size: 20px;
+}
+
+.card-dois .icone {
+    display: flex;
+    width: 41px;
+    height: 41px;
+}
+
+.card-dois .icone img {
+    width: 100%;
+    height: 100%;
+}
+
+.card-dois .ilustracao {
+    width: 210px;
+    height: auto;
+    align-self: center;
+    object-fit: contain;
+}
+
+.card-tres {
+    width: 600px;
+    height: 310px;
+    padding: 40px;
+    background-color: #191A23;
+    border: 1px solid #191A23;
+    border-radius: 45px;
+    box-shadow: 0 5px 0 #191A23;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-tres .conteudo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-tres h3 {
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 1.3;
+    color: #191A23;
+}
+
+.card-tres h3 span {
+    background-color: #fff;
+    padding: 0 7px;
+    border-radius: 7px;
+}
+
+.card-tres .text {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: #fff;
+    font-size: 20px;
+}
+
+.card-tres .icone {
+    display: flex;
+    width: 41px;
+    height: 41px;
+}
+
+.card-tres .icone img {
+    width: 100%;
+    height: 100%;
+}
+
+.card-tres .ilustracao {
+    width: 210px;
+    height: auto;
+    align-self: center;
+    object-fit: contain;
+}
+
+.card-quatro {
+    width: 600px;
+    height: 310px;
+    padding: 40px;
+    background-color: #fff;
+    border: 1px solid #191A23;
+    border-radius: 45px;
+    box-shadow: 0 5px 0 #191A23;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-quatro .conteudo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-quatro h3 {
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 1.3;
+    color: #191A23;
+}
+
+.card-quatro h3 span {
+    background-color: #B9FF66;
+    padding: 0 7px;
+    border-radius: 7px;
+}
+
+.card-quatro .text {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: #191A23;
+    font-size: 20px;
+}
+
+.card-quatro .icone {
+    display: flex;
+    width: 41px;
+    height: 41px;
+}
+
+.card-quatro .icone img {
+    width: 100%;
+    height: 100%;
+}
+
+.card-quatro .ilustracao {
+    width: 210px;
+    height: auto;
+    align-self: center;
+    object-fit: contain;
+}
+
+.card-cinco {
+    width: 600px;
+    height: 310px;
+    padding: 40px;
+    background-color: #B9FF66;
+    border: 1px solid #191A23;
+    border-radius: 45px;
+    box-shadow: 0 5px 0 #191A23;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-cinco .conteudo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-cinco h3 {
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 1.3;
+    color: #191A23;
+}
+
+.card-cinco h3 span {
+    background-color: #fff;
+    padding: 0 7px;
+    border-radius: 7px;
+}
+
+.card-cinco .text {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: #191A23;
+    font-size: 20px;
+}
+
+.card-cinco .icone {
+    display: flex;
+    width: 41px;
+    height: 41px;
+}
+
+.card-cinco .icone img {
+    width: 100%;
+    height: 100%;
+}
+
+.card-cinco .ilustracao {
+    width: 210px;
+    height: auto;
+    align-self: center;
+    object-fit: contain;
+}
+
+.card-seis {
+    width: 600px;
+    height: 310px;
+    padding: 40px;
+    background-color: #191A23;
+    border: 1px solid #191A23;
+    border-radius: 45px;
+    box-shadow: 0 5px 0 #191A23;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-seis .conteudo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-seis h3 {
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 1.3;
+    color: #191A23;
+}
+
+.card-seis h3 span {
+    background-color: #B9FF66;
+    padding: 0 7px;
+    border-radius: 7px;
+}
+
+.card-seis .text {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: #fff;
+    font-size: 20px;
+}
+
+.card-seis .icone {
+    display: flex;
+    width: 41px;
+    height: 41px;
+}
+
+.card-seis .icone img {
+    width: 100%;
+    height: 100%;
+}
+
+.card-seis .ilustracao {
+    width: 210px;
+    height: auto;
+    align-self: center;
+    object-fit: contain;
 }

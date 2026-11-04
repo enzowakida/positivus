@@ -119,10 +119,11 @@
     border-radius: 10px;
     font-weight: 400;
     cursor: pointer;
+    transition: 0.3s;
 }
 
 .caixa-texto button:hover {
-    background-color: #1d4ed8;
+    opacity: 0.8;
 }
 
 .caixa-imagem {

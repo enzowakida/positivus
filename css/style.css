@@ -94,7 +94,7 @@
     color: #0A0A0A;
     font-size: 65px;
     margin-bottom: 15px;
-    font-size: 500;
+    font-weight: 500;
 }
 
 .caixa-texto p {
@@ -115,7 +115,6 @@
     background-color: #0A0A0A;
     color: white;
     padding: 12px 25px;
-    border: none;
     border-radius: 10px;
     font-weight: 400;
     cursor: pointer;
@@ -205,7 +204,6 @@
 }
 
 .card-um .icone {
-    display: flex;
     width: 41px;
     height: 41px;
 }
@@ -216,9 +214,9 @@
 }
 
 .card-um .ilustracao {
+    display: flex;
     width: 210px;
-    height: auto;
-    align-self: center;
+    align-items: center;
     object-fit: contain;
 }
 
@@ -263,7 +261,6 @@
 }
 
 .card-dois .icone {
-    display: flex;
     width: 41px;
     height: 41px;
 }
@@ -274,9 +271,9 @@
 }
 
 .card-dois .ilustracao {
+    display: flex;
     width: 210px;
-    height: auto;
-    align-self: center;
+    align-items: center;
     object-fit: contain;
 }
 
@@ -321,7 +318,6 @@
 }
 
 .card-tres .icone {
-    display: flex;
     width: 41px;
     height: 41px;
 }
@@ -332,9 +328,9 @@
 }
 
 .card-tres .ilustracao {
+    display: flex;
     width: 210px;
-    height: auto;
-    align-self: center;
+    align-items: center;
     object-fit: contain;
 }
 
@@ -379,7 +375,6 @@
 }
 
 .card-quatro .icone {
-    display: flex;
     width: 41px;
     height: 41px;
 }
@@ -390,9 +385,9 @@
 }
 
 .card-quatro .ilustracao {
+    display: flex;
     width: 210px;
-    height: auto;
-    align-self: center;
+    align-items: center;
     object-fit: contain;
 }
 
@@ -437,7 +432,6 @@
 }
 
 .card-cinco .icone {
-    display: flex;
     width: 41px;
     height: 41px;
 }
@@ -448,9 +442,9 @@
 }
 
 .card-cinco .ilustracao {
+    display: flex;
     width: 210px;
-    height: auto;
-    align-self: center;
+    align-items: center;
     object-fit: contain;
 }
 
@@ -495,7 +489,6 @@
 }
 
 .card-seis .icone {
-    display: flex;
     width: 41px;
     height: 41px;
 }
@@ -506,8 +499,8 @@
 }
 
 .card-seis .ilustracao {
+    display: flex;
     width: 210px;
-    height: auto;
-    align-self: center;
+    align-items: center;
     object-fit: contain;
 }
